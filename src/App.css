@@ -1,0 +1,158 @@
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f7fc;
+  color: #333;
+}
+
+/* Navbar */
+nav {
+  width: 100%;
+  background: #1e293b;
+  color: white;
+  padding: 18px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+nav h2 {
+  font-size: 25px;
+  color: #38bdf8;
+}
+
+nav div {
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+/* Common Page Styles */
+.page {
+  min-height: 80vh;
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.page h1 {
+  font-size: 38px;
+  color: #1e293b;
+  margin-bottom: 20px;
+}
+
+.page p {
+  font-size: 18px;
+  color: #64748b;
+  line-height: 1.7;
+}
+
+/* Home Page */
+.home {
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #dbeafe, #eff6ff);
+}
+
+.home h1 {
+  font-size: 45px;
+  color: #1e3a8a;
+  margin-bottom: 20px;
+}
+
+.home p {
+  font-size: 19px;
+  color: #475569;
+  margin-bottom: 25px;
+}
+
+.home button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 13px 30px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.home button:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+/* About Page */
+.about {
+  min-height: 80vh;
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.about h1 {
+  color: #1e293b;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Contact Page */
+.contact {
+  min-height: 80vh;
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.contact h1 {
+  font-size: 36px;
+  color: #1e293b;
+  margin-bottom: 25px;
+}
+
+.contact p {
+  margin: 15px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    gap: 18px;
+    padding: 20px;
+  }
+
+  nav div {
+    gap: 18px;
+  }
+
+  .home h1 {
+    font-size: 30px;
+  }
+
+  .page h1 {
+    font-size: 28px;
+  }
+}
+

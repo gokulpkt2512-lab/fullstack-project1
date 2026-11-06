@@ -1,0 +1,91 @@
+
+.register-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #dbeafe, #eff6ff);
+}
+
+.register-container {
+  width: 100%;
+  max-width: 480px;
+  padding: 35px;
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+}
+
+.register-container h1 {
+  text-align: center;
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+
+.register-container > p {
+  text-align: center;
+  color: #64748b;
+  margin-bottom: 30px;
+}
+
+.register-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.register-container label {
+  font-weight: bold;
+  color: #334155;
+}
+
+.register-container input,
+.register-container select {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+}
+
+.register-container input:focus,
+.register-container select:focus {
+  border-color: #2563eb;
+}
+
+.register-container button {
+  margin-top: 15px;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.register-container button:hover {
+  background: #1e40af;
+}
+
+.success-message {
+  margin-top: 25px;
+  padding: 18px;
+  background: #dcfce7;
+  color: #166534;
+  border-radius: 10px;
+  line-height: 1.8;
+}
+
+@media (max-width: 500px) {
+  .register-container {
+    padding: 22px;
+  }
+
+  .register-container h1 {
+    font-size: 25px;
+  }
+}

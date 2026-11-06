@@ -1,0 +1,18 @@
+
+.about {
+  min-height: 80vh;
+  padding: 80px 30px;
+  text-align: center;
+  background: #f8fafc;
+}
+
+.about h1 {
+  font-size: 38px;
+  color: #1e293b;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 18px;
+  color: #64748b;
+}
